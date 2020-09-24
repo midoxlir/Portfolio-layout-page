@@ -195,10 +195,31 @@ img {
 }
 
 footer {
+  padding-top: 0.5em;
+  display: flex;
   background-color: #6b63ff;
   text-align: center;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  height: 30vh;
+  justify-content: space-around;
+  height: 5em;
+  width: 100%;
+}
+
+footer p {
+  color: white;
+}
+.footer-list,
+.social-media-list {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  list-style: none;
+}
+.footer-list-item a,
+.social-media-item a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: white;
 }
